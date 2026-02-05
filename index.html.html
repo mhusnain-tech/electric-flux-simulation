@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Flux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Semester Project of Electric Flux Simulation</h1>
+    </header>
+    <main>
+            <h2><u>Simulation:</u></h2>
+            <p>The formula for the electric flux: Φ = E · A = E A cos(θ)</p>
+            <div id="flux-container">
+                <canvas id="fluxCanvas" width="400" height="400"></canvas>
+            </div>
+                <br>
+                    <label for="electricField">Electric Field (E): </label>
+                    <input type="range" id="electricField" min="0" max="100" value="20">
+                    <span id="fieldValue">20</span>
+                <br>
+                    <label for="area">Area (A): </label>
+                    <input type="range" id="area" min="0" max="100" value="50">
+                    <span id="areaValue">50</span>
+                <br>
+                    <label for="angle">Angle (θ): </label>
+                    <input type="range" id="angle" min="0" max="180" value="90">
+                    <span id="angleValue">90</span>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
