@@ -1,5 +1,7 @@
 # ⚡ Electric Flux Simulation
 
+[**🌐 View Live Simulation**](https://mhusnain-tech.github.io/electric-flux-simulation/)
+
 ### **Semester Project**
 
 This project is an interactive simulation created to visualize the physical concept of Electric Flux. It helps in understanding how the flow of electric field lines through a given surface changes based on different parameters.
